@@ -196,10 +196,10 @@
         }
     }
 
-    UIView *hitSelf = [super hitTest:transformed withEvent:event];
-    if (hitSelf) {
-        return hitSelf;
-    }
+    // UIView *hitSelf = [super hitTest:transformed withEvent:event];
+    // if (hitSelf) {
+    //     return hitSelf;
+    // }
 
     return nil;
 }
